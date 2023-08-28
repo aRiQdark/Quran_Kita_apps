@@ -31,10 +31,8 @@ class alquran extends GetxController {
       return [];
     }
   }
-   tes(){
-    Get.defaultDialog(
-      title: 'OnGoing',
-      middleText: 'Fitur Otw bangda'
-    );
-   }
+
+  tes() {
+    Get.defaultDialog(title: 'OnGoing', middleText: 'Fitur Otw bangda');
+  }
 }
